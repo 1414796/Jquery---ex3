@@ -1,0 +1,46 @@
+
+.container {
+  position: relative;
+  margin: auto;
+  height: 550px;
+  background-color: blanchedalmond;
+  overflow: hidden;
+}
+
+.left {
+  width: 300px;
+}
+
+.right {
+  width: 200px;
+  /*float: right;*/
+  margin-left: 1150px;
+}
+
+.background {
+  position: relative;
+  /*height: 550px;*/
+}
+
+/*.background:after {*/
+  /*clear: both;*/
+/*}*/
+
+img {
+  position: absolute;
+}
+
+.content {
+  position: absolute;
+  height: 550px;
+  /*margin-top: -500px;*/
+  /*width: 100%;*/
+  /*overflow: auto;*/
+  
+}
+
+.column {
+  height: 550px;
+  
+  overflow: hidden;
+}
